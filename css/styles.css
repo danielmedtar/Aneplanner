@@ -1,3 +1,74 @@
+.carousel-control-next, .carousel-control-prev {
+  width: 4%; }
+
+@media (min-width: 768px) {
+  .carousel-control-next, .carousel-control-prev {
+    width: 5%; } }
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  width: 20px;
+  height: 20px; }
+
+@media (min-width: 768px) {
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 30px;
+    height: 30px; } }
+
+.flecha-index {
+  background-color: #1d1e18; }
+
+.flecha-packs {
+  background-color: #FF6f59; }
+
+#navbarNavDropdown {
+  justify-content: center; }
+
+#navbarNavDropdown li a:hover {
+  color: #5296A5; }
+
+.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
+  color: #5296A5; }
+
+.navbar-toggler {
+  background-color: rgba(130, 221, 240, 0.4); }
+
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+  background-image: url(../images/fondo2.png); }
+
+.navbar-light .navbar-toggler-icon {
+  width: 25px;
+  height: 25px; }
+
+.dropdown-menu {
+  font-size: 1.8rem;
+  background-image: url(../images/fondo2.png); }
+
+@media (min-width: 768px) {
+  .dropdown-menu {
+    font-size: 2rem; } }
+
+.navbar-light .navbar-toggler {
+  margin-bottom: 20px; }
+
+.dropdown-menu.show {
+  width: 30%; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #DB504A; }
+
+/*CARRUSEL*/
+#carouselExampleCaptions {
+  width: 100%;
+  margin-top: 30px; }
+
+@media (min-width: 768px) {
+  #carouselExampleCaptions {
+    width: 90%;
+    margin: auto; } }
+
+.carousel-indicators {
+  display: none; }
+
 html {
   font-size: 62.5%; }
 
@@ -515,88 +586,15 @@ ul.valor li:last-child {
   width: 30%;
   padding: 0;
   margin-top: unset;
-  margin-bottom: 30px; }
-
-.botonEnlace:last-child {
-  margin-bottom: 0; }
+  margin-bottom: 30px;
+  padding: 10px 0; }
 
 @media (min-width: 768px) {
   .botonEnlace {
     margin-bottom: 60px; } }
 
 .botonEnlace:first-child {
-  margin-top: 60px; }
-
-.carousel-control-next, .carousel-control-prev {
-  width: 4%; }
-
-@media (min-width: 768px) {
-  .carousel-control-next, .carousel-control-prev {
-    width: 5%; } }
-
-.carousel-control-next-icon, .carousel-control-prev-icon {
-  width: 20px;
-  height: 20px; }
-
-@media (min-width: 768px) {
-  .carousel-control-next-icon, .carousel-control-prev-icon {
-    width: 30px;
-    height: 30px; } }
-
-.flecha-index {
-  background-color: #1d1e18; }
-
-.flecha-packs {
-  background-color: #FF6f59; }
-
-#navbarNavDropdown {
-  justify-content: center; }
-
-#navbarNavDropdown li a:hover {
-  color: #5296A5; }
-
-.navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: #5296A5; }
-
-.navbar-toggler {
-  background-color: rgba(130, 221, 240, 0.4); }
-
-.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
-  background-image: url(../images/fondo2.png); }
-
-.navbar-light .navbar-toggler-icon {
-  width: 25px;
-  height: 25px; }
-
-.dropdown-menu {
-  font-size: 1.8rem;
-  background-image: url(../images/fondo2.png); }
-
-@media (min-width: 768px) {
-  .dropdown-menu {
-    font-size: 2rem; } }
-
-.navbar-light .navbar-toggler {
-  margin-bottom: 20px; }
-
-.dropdown-menu.show {
-  width: 30%; }
-
-.navbar-light .navbar-nav .nav-link {
-  color: #DB504A; }
-
-/*CARRUSEL*/
-#carouselExampleCaptions {
-  width: 100%;
-  margin-top: 30px; }
-
-@media (min-width: 768px) {
-  #carouselExampleCaptions {
-    width: 90%;
-    margin: auto; } }
-
-.carousel-indicators {
-  display: none; }
+  margin-top: 80px; }
 
 /*Etiquetas*/
 /*BOOTSTRAP*/

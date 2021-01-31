@@ -432,9 +432,7 @@ ul.valor li:last-child {
     padding: 0;
     margin-top: unset;
     margin-bottom: 30px;
-}
-.botonEnlace:last-child {
-    margin-bottom: 0;
+    padding: 10px 0;
 }
 @media (min-width: 768px) {
     .botonEnlace {
@@ -442,5 +440,5 @@ ul.valor li:last-child {
     }
 }
 .botonEnlace:first-child {
-    margin-top: 60px;
+    margin-top: 80px;
 }
