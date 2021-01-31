@@ -513,7 +513,19 @@ ul.valor li:last-child {
 
 .botonEnlace {
   width: 30%;
-  padding: 0; }
+  padding: 0;
+  margin-top: unset;
+  margin-bottom: 30px; }
+
+.botonEnlace:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 768px) {
+  .botonEnlace {
+    margin-bottom: 60px; } }
+
+.botonEnlace:first-child {
+  margin-top: 60px; }
 
 .carousel-control-next, .carousel-control-prev {
   width: 4%; }
