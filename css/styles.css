@@ -594,11 +594,8 @@ ul.valor li:last-child {
   .botonEnlace {
     margin-bottom: 60px; } }
 
-.bodyEnlace {
-  height: 80vh; }
-
-.parrafoEnlace {
-  margin-top: 80px; }
+footer.pieEnlace {
+  margin-bottom: 0; }
 
 /*Etiquetas*/
 /*BOOTSTRAP*/
