@@ -1,0 +1,433 @@
+.container-principal {
+    background-image: url(../images/fondo2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.logo {
+    display: block;
+    margin: auto;
+}
+.containerImagenCentrada {
+    margin-top: 30px;
+}
+@media (min-width: 768px) {
+    .containerImagenCentrada {
+        margin-top: 0;
+    }
+}
+.tituloFooter {
+    font-family: $recta;
+    letter-spacing: 2px;
+    color: $azul-oscuro;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.redes {
+    font-size: 4rem;
+    text-align: center;
+}
+@media (min-width: 768px) {
+    .redes {
+        font-size: 5rem;
+    }
+}
+.redes a {
+    text-decoration: none;
+    color: $negro;
+    margin-right: 10px;
+}
+.redes a:hover {
+    color: $azul-oscuro;
+}
+.siteBy {
+    font-family: $recta;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-top: 10px;
+}
+.siteBy a {
+    color: $negro;
+}
+.containerIndex {
+    background-color: $transparente;
+    margin-top: 50px;
+    width: 100%;
+    padding: 30px;
+    .container__parrafos {
+        color: $negro;
+        font-family: $recta;
+        font-weight: lighter;
+        font-size: 2rem;
+    }
+    ul {
+        list-style: none;
+        color: $negro;
+        font-family: $recta;
+        font-size: 2rem;
+        margin: 20px 0;
+    }
+}
+@media (min-width: 768px) {
+    .containerIndex {
+        padding: 40px;
+        .container__parrafos {
+            font-size: 3rem;
+            padding: 0 40px;
+            text-align: center;
+        }
+        ul {
+            font-size: 3rem;
+            text-align: center;
+            margin: 30px 0;
+        }
+    }
+}
+.menu {
+    list-style: none;
+    font-family: $cursiva;
+    font-size: 2rem;
+}
+@media (min-width: 768px) {
+    .menu {
+        font-size: 3.5rem;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+}
+.menu li {
+    display: block;
+}
+@media (min-width: 768px) {
+    .menu li {
+        display: inline-block;
+        margin-right: 100px;
+    }
+    .menu li:last-child {
+        margin-right: 0;
+    }
+}
+.menu li a {
+    display: block;
+    text-decoration: none;
+    color: $rojo;
+}
+.menu li a:hover {
+    color: #5ea7b7;
+    transition: ease-in-out .6s;
+}
+.centrarBoton {
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    font-family: $cursiva;
+    background-color: $rojo;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    margin-top: 60px;
+}
+@media (min-width: 768px) {
+    .boton {
+        font-size: 2.6rem;
+        padding: 8px;
+    }
+}
+.boton:hover {
+    background-color: $rosa;
+    transition: all .5s;
+}
+.boton a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.item__container__parrafos-boton {
+    margin-bottom: 60px;
+}
+.item__container__parrafos-contacto {
+    color: $azul-oscuro;
+    text-align: center;
+    font-size: 3rem;
+}
+/*SOBRE MI*/
+.item__container__sobremi {
+    margin-top: 30px;
+    background-color: $transparente;
+    width: 100%;
+    padding: 20px 40px;
+}
+@media (min-width: 768px) {
+    .item__container__sobremi {
+        padding: 20px 80px;
+    }
+}
+.item__container__sobremi__parrafos {
+    font-family: $recta;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.item__container__sobremi__parrafos:last-of-type {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .item__container__sobremi__parrafos {
+        font-size: 2.3rem;
+    }
+}
+
+.containerTresBotones {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.containerTresBotones__sobremi-boton {
+    font-family: $cursiva;
+    background-color: $rojo;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    margin-right: 30px;
+}
+@media (max-width: 425px) {
+    .containerTresBotones {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .containerTresBotones__sobremi-boton {
+        margin-bottom: 20px;
+        margin-right: 0;
+    }
+}
+@media (min-width: 768px) {
+    .containerTresBotones__sobremi-boton {
+        font-size: 2.6rem;
+        padding: 8px;
+    }
+}
+.containerTresBotones__sobremi-boton:hover {
+    background-color: $rosa;
+    transition: all .5s;
+}
+.containerTresBotones__sobremi-boton a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.containerTresBotones__sobremi-boton:last-of-type{
+    margin-right: 0;
+}
+/*SERVICIOS*/
+.containerServicios {
+    background-color: $transparente;
+    width: 100%;
+    padding: 20px 40px 20px 0;
+    margin-top: 30px;
+}
+.listaServicios {
+    font-family: $recta;
+        p {
+            color: $azul-oscuro;
+            font-size: 1.8rem;
+            text-align: center;
+            padding-left: 20px;
+            margin-bottom: 20px;
+        }
+        ul li {
+            font-size: 1.8rem;
+            color: $negro;
+            list-style: none;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+}
+.listaServicios ul li:last-child {
+    margin-bottom: 30px;
+}
+ul.valor li:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .containerServicios {
+        padding: 20px 80px;
+        margin-top: 0;
+    }
+    .listaServicios {
+        font-family: $recta;
+            p {
+                font-size: 3rem;
+                margin-bottom: 40px;
+                text-align: left;
+            }
+            ul li {
+                font-size: 2.3rem;
+            }
+            ul {
+                margin-bottom: 50px;
+            }
+    }
+    .listaServicios ul:last-of-type {
+        margin-bottom: 0;
+    }
+}
+.botonServicios {
+    margin-right: 30px;
+    margin-top: 0;
+}
+.botonServicios:last-of-type {
+    margin-right: 0;
+}
+@media (max-width: 425px) {
+    .botonServicios {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+}
+/*PACKS*/
+.container__pack {
+    background-color: $transparente;
+    width: 100%;
+    padding: 20px 40px;
+    margin-top: 60px;
+        p {
+            font-family: $recta;
+            color: $negro;
+            font-size: 1.8rem;
+            margin-bottom: 30px;
+        }
+    }
+
+.container__pack p:last-child {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .container__pack {
+        padding: 20px 80px;
+            p {
+                font-size: 2.3rem;
+            }
+    }
+}
+/*CONTACTO*/
+.parrafo__form {
+    font-family: $recta;
+    letter-spacing: 2px;
+    color: $azul-oscuro;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+@media (min-width: 768px) {
+    .parrafo__form {
+        font-size: 2.3rem;
+    }
+}
+.labelDatos {
+    display: flex;
+    flex-direction: column;
+}
+.labelDatos label {
+    margin-bottom: 10px;
+}
+.labelDatos input {
+    margin-bottom: 10px;
+    border: solid 1px $rosa;
+    border-radius: 5px;
+}
+.containerTema {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.containerTema:last-of-type {
+    margin-bottom: 0;
+}
+.containerTema label {
+    font-size: 1.8rem;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+@media (min-width: 768px) {
+    .containerTema label {
+        font-size: 2rem;
+        margin-right: 10px;
+    }
+}
+.containerTema input {
+    width: 20px;
+    height: 20px;
+}
+@media (min-width: 768px) {
+    .formJuntos {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.botonForm {
+    font-family: $cursiva;
+    background-color: $rojo;
+    color: #FFFFFF;
+    border: none;
+    padding: 6px;
+    border-radius: 10px;
+    font-size: 1.8rem;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.botonForm:last-child {
+    margin-right: 0;
+}
+@media (min-width: 768px) {
+    .botonForm {
+        font-size: 2.6rem;
+        padding: 8px;
+    }
+}
+.botonForm:hover {
+    transition: all .5s;
+    background-color: $rosa;
+}
+.mensaje {
+    display: flex;
+    justify-content: center;
+}
+.parrafo_contacto {
+    background-color: $transparente;
+    font-family: $recta;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 30px;
+}
+@media (min-width: 768px) {
+    .parrafo_contacto {
+        font-size: 3rem;
+        margin-top: 30px;
+    }
+}
+.containerEnlaces {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botonEnlace {
+    width: 30%;
+    padding: 0;
+}

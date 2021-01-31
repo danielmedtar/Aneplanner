@@ -1,0 +1,75 @@
+.carousel-control-next, .carousel-control-prev {
+    width: 4%;
+}
+@media (min-width: 768px) {
+    .carousel-control-next, .carousel-control-prev {
+        width: 5%;
+    }
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 20px;
+    height: 20px;
+}
+@media (min-width: 768px) {
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+.flecha-index {
+    background-color: $negro;
+}
+.flecha-packs {
+    background-color: $rosa;
+}
+#navbarNavDropdown {
+    justify-content: center;
+}
+#navbarNavDropdown li a:hover {
+    color: $azul-oscuro;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: $azul-oscuro;
+}
+.navbar-toggler {
+    background-color: $transparente;
+}
+.navbar, .navbar-expand-lg, .navbar-light, .bg-light {
+    background-image: url(../images/fondo2.png);
+}
+.navbar-light .navbar-toggler-icon {
+    width: 25px;
+    height: 25px;
+}
+.dropdown-menu {
+    font-size: 1.8rem;
+    background-image: url(../images/fondo2.png);
+}
+@media (min-width: 768px) {
+    .dropdown-menu {
+        font-size: 2rem;
+    }    
+}
+.navbar-light .navbar-toggler {
+    margin-bottom: 20px;
+}
+.dropdown-menu.show {
+    width: 30%;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: $rojo;
+}
+/*CARRUSEL*/
+#carouselExampleCaptions {
+    width: 100%;
+    margin-top: 30px;
+}
+@media (min-width: 768px) {
+    #carouselExampleCaptions {
+        width: 90%;
+        margin: auto;
+    }
+}
+.carousel-indicators {
+    display: none;
+}
