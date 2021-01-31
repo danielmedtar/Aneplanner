@@ -426,6 +426,7 @@ ul.valor li:last-child {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 .botonEnlace {
     width: 30%;
@@ -438,9 +439,6 @@ ul.valor li:last-child {
     .botonEnlace {
         margin-bottom: 60px;
     }
-}
-.botonEnlace:first-child {
-    margin-top: 30px;
 }
 .bodyEnlace {
     height: 80vh;
