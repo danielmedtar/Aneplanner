@@ -595,6 +595,9 @@ ul.valor li:last-child {
     margin-bottom: 60px; } }
 
 footer.pieEnlace {
+  margin: 0; }
+
+.parrafoEnlace {
   margin-bottom: 0; }
 
 /*Etiquetas*/
