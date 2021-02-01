@@ -589,15 +589,20 @@ ul.valor li:last-child {
   margin-top: 20px; }
 
 .botonEnlace {
-  width: 30%;
-  padding: 0;
+  width: 60%;
   margin-top: unset;
-  margin-bottom: 10px;
-  padding: 10px 0; }
+  margin-bottom: 20px;
+  padding: 5px 0;
+  font-size: 2rem; }
+
+.botonEnlace:first-child {
+  margin-top: 15px; }
 
 @media (min-width: 768px) {
   .botonEnlace {
-    margin-bottom: 60px; } }
+    width: 40%;
+    margin-bottom: 60px;
+    font-size: 2.6rem; } }
 
 footer.pieEnlace {
   margin-top: 20px;
@@ -605,3 +610,6 @@ footer.pieEnlace {
 
 .parrafoEnlace {
   margin-bottom: 0; }
+
+footer.pieEnlace .siteBy {
+  font-size: 1.4rem; }
